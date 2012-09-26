@@ -1,0 +1,14 @@
+<div class="well">
+	<div class="row">
+        <div class="span3">
+        	<h2><%= link_to recette.titre, recette %></h2>
+        </div>
+	    <div class="span3">
+	    	<p><%= recette.description %></p>
+	    </div>
+	    <div class="span2">
+	    	<p>Proposé par : <%= link_to recette.user_name, recette.user %></p>
+	    	<p>Le <%= recette.created_at %> </p>
+	    </div>
+    </div>
+</div>

@@ -1,5 +1,5 @@
-<h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
+<h1>Les dernières recettes</h1>
+
+<% @recettes.each do |recette| %>
+	<%= render :partial => 'shared/bloc_recette', :locals => { :recette => recette } %>
 <% end %>
-<%= link_to "Se déconnecter", destroy_user_session_path, :method => :delete %>

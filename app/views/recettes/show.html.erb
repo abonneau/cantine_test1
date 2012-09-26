@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  <%= @recette.titre %>
+</h1>
+
+<p>
+  <b>Description:</b>
+  <%= @recette.description %>
+</p>
+
+<p>
+  <b>Ingredients:</b>
+  <%= @recette.ingredients %>
+</p>
+
+<p>
+  <b>Preparation:</b>
+  <%= @recette.preparation %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @recette.user_name %>
+</p>
+
+<% if current_user == @recette.user %>
+  <%= link_to 'Edit', edit_recette_path(@recette) %> |
+<% end %>
+<%= link_to 'Back', root_path %>

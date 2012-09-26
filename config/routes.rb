@@ -1,5 +1,7 @@
 CantineTest1::Application.routes.draw do
   
+
+
   authenticated :user do
     root :to => 'home#index'
   end
@@ -8,6 +10,8 @@ CantineTest1::Application.routes.draw do
 
   devise_for :users
   resources :users, :only => [:show, :index]
+
+  resources :recettes
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
