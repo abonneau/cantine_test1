@@ -11,16 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120923112235) do
+ActiveRecord::Schema.define(:version => 20120927162910) do
 
   create_table "recettes", :force => true do |t|
     t.string   "titre"
-    t.string   "description"
-    t.string   "ingredients"
-    t.string   "preparation"
+    t.text     "description",
+    t.text     "ingredients",
+    t.text     "preparation",
     t.integer  "user_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
   end
 
   add_index "recettes", ["titre"], :name => "index_recettes_on_titre"
