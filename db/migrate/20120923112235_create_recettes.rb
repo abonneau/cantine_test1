@@ -2,9 +2,9 @@ class CreateRecettes < ActiveRecord::Migration
   def change
     create_table :recettes do |t|
       t.string :titre
-      t.text :description
-      t.text :ingredients
-      t.text :preparation
+      t.string :description
+      t.string :ingredients
+      t.string :preparation
       t.integer :user_id
 
       t.timestamps
