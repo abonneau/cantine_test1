@@ -7,7 +7,7 @@
 	    	<p><%= recette.description %></p>
 	    </div>
 	    <div class="span2">
-	    	<p>Proposé par : <%= link_to recette.user_name, recette.user %></p>
+	    	<p>Proposé par : <%= link_to recette.user.name, recette.user %></p>
 	    	<p>Le <%= recette.created_at %> </p>
 	    </div>
     </div>
