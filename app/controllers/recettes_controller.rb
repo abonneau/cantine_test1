@@ -1,6 +1,9 @@
 class RecettesController < InheritedResources::Base
-	before_filter :authenticate_user!, :only => [:new, :create, :edit, :destroy]
-	before_filter :authorized_user, :only => [:edit, :destroy]
+	#before_filter :authenticate_user!, :only => [:new, :create, :edit, :destroy]
+	#before_filter :authorized_user, :only => [:edit, :destroy]
+
+	load_and_authorize_resource
+	#skip_authorize_resource :only => [:new, :create]
 
 	def index
 	    @recettes = Recette.all
@@ -22,7 +25,8 @@ class RecettesController < InheritedResources::Base
 
 
 	def destroy
-
+		@recette.destroy
+		redirect_to root_path
 	end
 
 

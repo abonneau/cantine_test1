@@ -8,6 +8,7 @@ gem 'rails', '3.2.8'
 gem 'sqlite3', :group => :development
 gem 'devise'
 gem 'cancan'
+gem 'rolify'
 gem 'activeadmin'
 gem 'meta_search'
 gem 'will_paginate'
