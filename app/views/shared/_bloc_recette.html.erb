@@ -7,8 +7,17 @@
 	    	<p><%= recette.description %></p>
 	    </div>
 	    <div class="span2">
-	    	<p>Proposé par : <%= link_to recette.user_name, recette.user %></p>
+	    	<p>Proposé par : <%= link_to recette.user.name, recette.user %></p>
 	    	<p>Le <%= recette.created_at %> </p>
+	    	<% if current_user.nil? %>
+
+	    	<% else %>
+		    	<% if current_user == recette.user or current_user.has_role? :admin %>
+				  <%= link_to 'Edit', edit_recette_path(recette) %> |
+				  <%= link_to 'Destroy', recette, method: :delete, data: { confirm: 'Are you sure?' } %> |
+				<% end %>
+			<% end %>
+
 	    </div>
     </div>
 </div>

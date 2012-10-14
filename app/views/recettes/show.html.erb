@@ -21,10 +21,14 @@
 
 <p>
   <b>User:</b>
-  <%= @recette.user_name %>
+  <%= @recette.user.name %>
 </p>
-
-<% if current_user == @recette.user %>
-  <%= link_to 'Edit', edit_recette_path(@recette) %> |
+<% if current_user.nil? %>
+  <%= link_to 'Back', root_path %>
+<% else %>
+  <% if affichage_bouttons? %>
+    <%= link_to 'Edit', edit_recette_path(@recette) %> |
+    <%= link_to 'Destroy', @recette, method: :delete, data: { confirm: 'Are you sure?' } %> |
+  <% end %>
+  <%= link_to 'Back', root_path %>
 <% end %>
-<%= link_to 'Back', root_path %>

@@ -6,13 +6,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Ma Cantine</a>
+          <a class="brand" href="/">Ma Cantine<% if signed_in? %> | <%= current_user.name %><% end %></a>
           <div class="container nav-collapse">
             <ul class="nav">
               <% if signed_in? %>
-              <li><%= link_to "Proposer une recette", new_recette_path %></li>
+                <li><%= link_to "Proposer une recette", new_recette_path %></li>
                 <li><%= link_to "Déconnexion", destroy_user_session_path, :method => :delete %></li>
-                <% else %>
+              <% else %>
                 <li><%= link_to "S'identifier", new_user_session_path %></li>
                 <li><%= link_to "S'inscrire", new_user_registration_path %></li>
               <% end %>
