@@ -8,7 +8,9 @@
 <% if @liste_recettes.empty? %>
 	<p><%= @user.name %> n'a pas encore publié de recette</p>
 <% else %>
+	<%= will_paginate @liste_recettes, :class => 'pager' %>
 	<% @liste_recettes.each do |recette| %>
 		<%= render :partial => 'shared/bloc_recette', :locals => { :recette => recette } %>
 	<% end %>
+	<%= will_paginate @liste_recettes, :class => 'pager' %>
 <% end %>

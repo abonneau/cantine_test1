@@ -1,5 +1,6 @@
 <h1>Les dernières recettes</h1>
-
+<%= will_paginate @recettes, :class => 'pager' %>
 <% @recettes.each do |recette| %>
 	<%= render :partial => 'shared/bloc_recette', :locals => { :recette => recette } %>
 <% end %>
+<%= will_paginate @recettes, :class => 'pager' %>
