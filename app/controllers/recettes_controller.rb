@@ -1,3 +1,6 @@
+#!/bin/ruby
+# encoding: utf-8
+
 class RecettesController < InheritedResources::Base
 	#before_filter :authenticate_user!, :only => [:new, :create, :edit, :destroy]
 	#before_filter :authorized_user, :only => [:edit, :destroy]
@@ -16,8 +19,12 @@ class RecettesController < InheritedResources::Base
 
     def create
     	@recette = current_user.recettes.build(params[:recette])
-    	@recette.save
-    	redirect_to root_path
+    	if @recette.save
+    		flash[:success] = "Recette créée !"
+    		redirect_to root_path
+    	else
+    		render 'new'
+    	end
     end
 
     
