@@ -14,7 +14,29 @@ CantineTest1::Application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
+
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default :charset => "utf-8"
+
+  # Use SMTP to send mail
+  config.action_mailer.delivery_method = :smtp
+
+  # Use awesomeness@novulty.com (google app) to send smtp mail
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "CantineTest1", # real domain name in my file
+    :user_name            => ENV["GMAIL_USERNAME"],
+    :password             => ENV["GMAIL_PASSWORD"],
+    :authentication       => :plain,
+    :enable_starttls_auto => true
+  }
+
+  # Specify what domain to use for mailer URLs
+  config.action_mailer.default_url_options = {
+    host: "localhost:3000"
+  }
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
