@@ -64,4 +64,23 @@ CantineTest1::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  # Use SMTP to send mail
+  config.action_mailer.delivery_method = :smtp
+
+  # Use awesomeness@novulty.com (google app) to send smtp mail
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :domain               => "CantineTest1", # real domain name in my file
+    :user_name            => ENV["GMAIL_USERNAME"],
+    :password             => ENV["GMAIL_PASSWORD"],
+    :authentication       => :plain,
+    :enable_starttls_auto => true
+  }
+
+  # Specify what domain to use for mailer URLs
+  config.action_mailer.default_url_options = {
+    host: "cantine-test1.herokuapp.com"
+  }
 end
