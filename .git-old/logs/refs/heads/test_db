@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 bd00a5ea19f04433857d75e2b18b31a0e8899328 abonneau <aurelienbonneau@free.fr> 1348762805 +0200	branch: Created from HEAD
+bd00a5ea19f04433857d75e2b18b31a0e8899328 44ceb7d7c247882b525e3b589e909d6f09cdd1db abonneau <aurelienbonneau@free.fr> 1348762841 +0200	commit: test sur les champs de la db
+44ceb7d7c247882b525e3b589e909d6f09cdd1db c33e3e6b06d169fc9d912f564f25c283c602755b abonneau <aurelienbonneau@free.fr> 1348763650 +0200	commit: midification de type de champs de la table recette

@@ -1,0 +1,63 @@
+0000000000000000000000000000000000000000 97368f707067c2230b600d2f0cab5ec2b9bc19d9 abonneau <aurelienbonneau@free.fr> 1348309343 +0200	commit (initial): depot initial
+97368f707067c2230b600d2f0cab5ec2b9bc19d9 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348309459 +0200	commit: modif du readme
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348310018 +0200	checkout: moving from master to devise
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348312975 +0200	checkout: moving from devise to master
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348313024 +0200	checkout: moving from master to devise
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 c119d75926f32d1561552a953b667ed79793c7f2 abonneau <aurelienbonneau@free.fr> 1348313059 +0200	commit: configuration des utilisateurs avec devise
+c119d75926f32d1561552a953b667ed79793c7f2 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348313136 +0200	checkout: moving from devise to master
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 c119d75926f32d1561552a953b667ed79793c7f2 abonneau <aurelienbonneau@free.fr> 1348313150 +0200	merge devise: Fast-forward
+c119d75926f32d1561552a953b667ed79793c7f2 c119d75926f32d1561552a953b667ed79793c7f2 abonneau <aurelienbonneau@free.fr> 1348313402 +0200	checkout: moving from master to bootstrap
+c119d75926f32d1561552a953b667ed79793c7f2 00f39d427f4dcab27ca8d8341e536577671e299d abonneau <aurelienbonneau@free.fr> 1348315577 +0200	commit: install de bootstrap ok
+00f39d427f4dcab27ca8d8341e536577671e299d c119d75926f32d1561552a953b667ed79793c7f2 abonneau <aurelienbonneau@free.fr> 1348315607 +0200	checkout: moving from bootstrap to master
+c119d75926f32d1561552a953b667ed79793c7f2 00f39d427f4dcab27ca8d8341e536577671e299d abonneau <aurelienbonneau@free.fr> 1348315873 +0200	merge bootstrap: Fast-forward
+00f39d427f4dcab27ca8d8341e536577671e299d 364ef1ab9a068d8dc86147391bcc43e387c23126 abonneau <aurelienbonneau@free.fr> 1348316114 +0200	commit: modif
+364ef1ab9a068d8dc86147391bcc43e387c23126 ac4018140d36e3f0ab561301c1919cfc3d7c08ac abonneau <aurelienbonneau@free.fr> 1348317145 +0200	commit: modif gemfile
+ac4018140d36e3f0ab561301c1919cfc3d7c08ac 79b4ae5e1d829a6feac4b898d9377f006e0086eb abonneau <aurelienbonneau@free.fr> 1348317438 +0200	commit: modif production.rb
+79b4ae5e1d829a6feac4b898d9377f006e0086eb 5f6281bf3d131b817ac742f5a3b0baea95882958 abonneau <aurelienbonneau@free.fr> 1348397050 +0200	commit: config spork et autotest
+5f6281bf3d131b817ac742f5a3b0baea95882958 5f6281bf3d131b817ac742f5a3b0baea95882958 abonneau <aurelienbonneau@free.fr> 1348397134 +0200	checkout: moving from master to rspec1
+5f6281bf3d131b817ac742f5a3b0baea95882958 e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348398567 +0200	commit: arret des test
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 5f6281bf3d131b817ac742f5a3b0baea95882958 abonneau <aurelienbonneau@free.fr> 1348398583 +0200	checkout: moving from rspec1 to master
+5f6281bf3d131b817ac742f5a3b0baea95882958 e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348398601 +0200	merge rspec1: Fast-forward
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348398689 +0200	checkout: moving from master to recettes
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 abonneau <aurelienbonneau@free.fr> 1348682829 +0200	commit: base des recettes avec lien aux utilisateur
+36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348682851 +0200	checkout: moving from recettes to master
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 abonneau <aurelienbonneau@free.fr> 1348682862 +0200	merge recettes: Fast-forward
+36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 bd00a5ea19f04433857d75e2b18b31a0e8899328 abonneau <aurelienbonneau@free.fr> 1348686749 +0200	commit: modification des types de colonnes dans la table recette
+bd00a5ea19f04433857d75e2b18b31a0e8899328 bd00a5ea19f04433857d75e2b18b31a0e8899328 abonneau <aurelienbonneau@free.fr> 1348762805 +0200	checkout: moving from master to test_db
+bd00a5ea19f04433857d75e2b18b31a0e8899328 44ceb7d7c247882b525e3b589e909d6f09cdd1db abonneau <aurelienbonneau@free.fr> 1348762841 +0200	commit: test sur les champs de la db
+44ceb7d7c247882b525e3b589e909d6f09cdd1db c33e3e6b06d169fc9d912f564f25c283c602755b abonneau <aurelienbonneau@free.fr> 1348763650 +0200	commit: midification de type de champs de la table recette
+c33e3e6b06d169fc9d912f564f25c283c602755b bd00a5ea19f04433857d75e2b18b31a0e8899328 abonneau <aurelienbonneau@free.fr> 1348763666 +0200	checkout: moving from test_db to master
+bd00a5ea19f04433857d75e2b18b31a0e8899328 c33e3e6b06d169fc9d912f564f25c283c602755b abonneau <aurelienbonneau@free.fr> 1348763731 +0200	merge test_db: Fast-forward
+c33e3e6b06d169fc9d912f564f25c283c602755b 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348763747 +0200	commit: midification de type de champs de la table recette
+8e4ba13994bca0f391a0100234c00aae7166f43d e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348764670 +0200	checkout: moving from master to rspec1
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348764678 +0200	merge master: Fast-forward
+8e4ba13994bca0f391a0100234c00aae7166f43d 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348765272 +0200	checkout: moving from rspec1 to master
+8e4ba13994bca0f391a0100234c00aae7166f43d 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348927835 +0200	checkout: moving from master to rspec1
+8e4ba13994bca0f391a0100234c00aae7166f43d 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348928409 +0200	checkout: moving from rspec1 to master
+8e4ba13994bca0f391a0100234c00aae7166f43d 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348937142 +0200	checkout: moving from master to cancan
+8e4ba13994bca0f391a0100234c00aae7166f43d 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348937161 +0200	checkout: moving from cancan to master
+8e4ba13994bca0f391a0100234c00aae7166f43d 3c8275d549ae57509c94dbcf4c530ffec877804b abonneau <aurelienbonneau@free.fr> 1348937180 +0200	commit: petites modif
+3c8275d549ae57509c94dbcf4c530ffec877804b 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348937197 +0200	checkout: moving from master to cancan
+8e4ba13994bca0f391a0100234c00aae7166f43d 3c8275d549ae57509c94dbcf4c530ffec877804b abonneau <aurelienbonneau@free.fr> 1348937203 +0200	checkout: moving from cancan to master
+3c8275d549ae57509c94dbcf4c530ffec877804b 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348937232 +0200	checkout: moving from master to cancan
+8e4ba13994bca0f391a0100234c00aae7166f43d ba9f79d6908dd3062fd72d44c6e8f3693bca13b6 abonneau <aurelienbonneau@free.fr> 1350216911 +0200	commit: gestion des utilisateur par cancan et rolify
+ba9f79d6908dd3062fd72d44c6e8f3693bca13b6 3c8275d549ae57509c94dbcf4c530ffec877804b abonneau <aurelienbonneau@free.fr> 1350216934 +0200	checkout: moving from cancan to master
+3c8275d549ae57509c94dbcf4c530ffec877804b 66045637bc283ce3f13dac65ba0dabfcaad1ace8 abonneau <aurelienbonneau@free.fr> 1350216948 +0200	merge cancan: Merge made by the 'recursive' strategy.
+66045637bc283ce3f13dac65ba0dabfcaad1ace8 af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351013481 +0200	commit: ajout d'une pagination
+af18bfd3ec3541b7107e5a472dc566a35e1115ed af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351093125 +0200	checkout: moving from master to validation
+af18bfd3ec3541b7107e5a472dc566a35e1115ed af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351097088 +0200	checkout: moving from validation to master
+af18bfd3ec3541b7107e5a472dc566a35e1115ed af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351097109 +0200	checkout: moving from master to validation
+af18bfd3ec3541b7107e5a472dc566a35e1115ed 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1351097138 +0200	commit: ajout des validations pour users et recettes
+7996ae37e0baf045650b6aca114b8f34a324f5ff af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351097151 +0200	checkout: moving from validation to master
+af18bfd3ec3541b7107e5a472dc566a35e1115ed 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1351097156 +0200	merge validation: Fast-forward
+7996ae37e0baf045650b6aca114b8f34a324f5ff 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1351266921 +0200	checkout: moving from master to images
+7996ae37e0baf045650b6aca114b8f34a324f5ff 6a4f72fd660df0414a0047b1b865122a1f46a750 abonneau <aurelienbonneau@free.fr> 1351273469 +0200	commit: debut de l'ajout des avatars
+6a4f72fd660df0414a0047b1b865122a1f46a750 f3aa3fc6006d822793a18b09dcf0d5c65e5c74bf abonneau <aurelienbonneau@free.fr> 1352030581 +0100	commit: images et profils
+f3aa3fc6006d822793a18b09dcf0d5c65e5c74bf 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1352030590 +0100	checkout: moving from images to master
+7996ae37e0baf045650b6aca114b8f34a324f5ff 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1352033714 +0100	checkout: moving from master to mail
+7996ae37e0baf045650b6aca114b8f34a324f5ff ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 abonneau <aurelienbonneau@free.fr> 1353849491 +0100	commit: ajout des mails de confirmation
+ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1353849505 +0100	checkout: moving from mail to master
+7996ae37e0baf045650b6aca114b8f34a324f5ff ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 abonneau <aurelienbonneau@free.fr> 1353849514 +0100	merge mail: Fast-forward
+ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 45f6fd5444c53fe0c4977d4311879f183fd9fc8e abonneau <aurelienbonneau@free.fr> 1353851771 +0100	commit: test modif pour mail en production
+45f6fd5444c53fe0c4977d4311879f183fd9fc8e 45f6fd5444c53fe0c4977d4311879f183fd9fc8e abonneau <aurelienbonneau@free.fr> 1354301051 +0100	checkout: moving from master to testing
+45f6fd5444c53fe0c4977d4311879f183fd9fc8e 084d3f588f2a308442b09e7f9467861da82f652c abonneau <aurelienbonneau@free.fr> 1355088282 +0100	commit: tests des models en cours

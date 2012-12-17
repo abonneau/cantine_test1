@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348937142 +0200	branch: Created from HEAD
+8e4ba13994bca0f391a0100234c00aae7166f43d ba9f79d6908dd3062fd72d44c6e8f3693bca13b6 abonneau <aurelienbonneau@free.fr> 1350216911 +0200	commit: gestion des utilisateur par cancan et rolify

@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 97368f707067c2230b600d2f0cab5ec2b9bc19d9 abonneau <aurelienbonneau@free.fr> 1348309343 +0200	commit (initial): depot initial
+97368f707067c2230b600d2f0cab5ec2b9bc19d9 acf7196fd0dacd05bf5034b9a7143f569786a1c2 abonneau <aurelienbonneau@free.fr> 1348309459 +0200	commit: modif du readme
+acf7196fd0dacd05bf5034b9a7143f569786a1c2 c119d75926f32d1561552a953b667ed79793c7f2 abonneau <aurelienbonneau@free.fr> 1348313150 +0200	merge devise: Fast-forward
+c119d75926f32d1561552a953b667ed79793c7f2 00f39d427f4dcab27ca8d8341e536577671e299d abonneau <aurelienbonneau@free.fr> 1348315873 +0200	merge bootstrap: Fast-forward
+00f39d427f4dcab27ca8d8341e536577671e299d 364ef1ab9a068d8dc86147391bcc43e387c23126 abonneau <aurelienbonneau@free.fr> 1348316114 +0200	commit: modif
+364ef1ab9a068d8dc86147391bcc43e387c23126 ac4018140d36e3f0ab561301c1919cfc3d7c08ac abonneau <aurelienbonneau@free.fr> 1348317145 +0200	commit: modif gemfile
+ac4018140d36e3f0ab561301c1919cfc3d7c08ac 79b4ae5e1d829a6feac4b898d9377f006e0086eb abonneau <aurelienbonneau@free.fr> 1348317438 +0200	commit: modif production.rb
+79b4ae5e1d829a6feac4b898d9377f006e0086eb 5f6281bf3d131b817ac742f5a3b0baea95882958 abonneau <aurelienbonneau@free.fr> 1348397050 +0200	commit: config spork et autotest
+5f6281bf3d131b817ac742f5a3b0baea95882958 e93688b5162ee3970b1a9f7ac82bd08f1875db94 abonneau <aurelienbonneau@free.fr> 1348398601 +0200	merge rspec1: Fast-forward
+e93688b5162ee3970b1a9f7ac82bd08f1875db94 36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 abonneau <aurelienbonneau@free.fr> 1348682862 +0200	merge recettes: Fast-forward
+36d0edbb6354a030381eeda69e1cf99d8d4e6bd4 bd00a5ea19f04433857d75e2b18b31a0e8899328 abonneau <aurelienbonneau@free.fr> 1348686749 +0200	commit: modification des types de colonnes dans la table recette
+bd00a5ea19f04433857d75e2b18b31a0e8899328 c33e3e6b06d169fc9d912f564f25c283c602755b abonneau <aurelienbonneau@free.fr> 1348763731 +0200	merge test_db: Fast-forward
+c33e3e6b06d169fc9d912f564f25c283c602755b 8e4ba13994bca0f391a0100234c00aae7166f43d abonneau <aurelienbonneau@free.fr> 1348763747 +0200	commit: midification de type de champs de la table recette
+8e4ba13994bca0f391a0100234c00aae7166f43d 3c8275d549ae57509c94dbcf4c530ffec877804b abonneau <aurelienbonneau@free.fr> 1348937180 +0200	commit: petites modif
+3c8275d549ae57509c94dbcf4c530ffec877804b 66045637bc283ce3f13dac65ba0dabfcaad1ace8 abonneau <aurelienbonneau@free.fr> 1350216948 +0200	merge cancan: Merge made by the 'recursive' strategy.
+66045637bc283ce3f13dac65ba0dabfcaad1ace8 af18bfd3ec3541b7107e5a472dc566a35e1115ed abonneau <aurelienbonneau@free.fr> 1351013481 +0200	commit: ajout d'une pagination
+af18bfd3ec3541b7107e5a472dc566a35e1115ed 7996ae37e0baf045650b6aca114b8f34a324f5ff abonneau <aurelienbonneau@free.fr> 1351097156 +0200	merge validation: Fast-forward
+7996ae37e0baf045650b6aca114b8f34a324f5ff ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 abonneau <aurelienbonneau@free.fr> 1353849514 +0100	merge mail: Fast-forward
+ba7f48fc2c7a2f7fae1f6aaa0be419d5bdbccb81 45f6fd5444c53fe0c4977d4311879f183fd9fc8e abonneau <aurelienbonneau@free.fr> 1353851771 +0100	commit: test modif pour mail en production
